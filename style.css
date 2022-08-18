@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Mr+Dafoe&family=Nuosu+SIL&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,900&family=Sacramento&family=Tangerine:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: rgb(224, 240, 239);
+    width: 1200px;
+    min-height: 750px;
+    box-shadow: 0px 10px 10px #000;
+    border-radius: 15px;
+    position: relative;
+}
+.container h1{
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 2px solid #000;
+}
+.left-box{
+     position: absolute;
+     width: 250px;
+     height: 690px;
+     background-color: #68fafa;
+     border-radius: 0px 0px 0px 15px;
+     top: 10;
+     left: 0;
+     right: 0;
+     bottom: 0;
+}
+.left-box h2{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #333;
+}
+.p-g-t{
+    text-align: center;
+    display: grid;
+    place-content: center;
+    min-height: 30vh;
+}
+.p-g-t h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.content{
+     width: 850px;
+     height: 660px; 
+}
+.content .right-box{
+    /* display: flex;
+    flex-direction: column;
+   
+     */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    align-items: center;
+    
+    position: absolute;
+    top: 10;
+    left: 280px;
+    right: 0;
+    /* bottom: 0; */
+    margin: 10px 0;
+}
+/* .right-box{
+    
+    /* min-width: 900px;
+    min-height: 80px;
+    justify-content: center;
+    align-items: center; */
+
+
+.right-box input{
+    margin: 10px 0px;
+    width: 180px;
+    height: 30px;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 30px;
+    font-size: 0.9rem;
+}
+.right-box h4{
+    color: #333;
+}
+.right-box button{
+    /* margin-bottom:0 0 10px 0; */
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    padding: 0px 10px;
+    background-color: #68fafa;
+    color: #333;
+    border: 0;
+    outline: none;
+    font-size: medium;
+    font-weight: 900;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.result{
+    position: absolute;
+    bottom: 0px;
+    width: 250px;
+    height: 60px;
+    background-color: #19b9b9;
+    border-radius: 0 0 0 15px;
+}
+.result h3{
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: #ecf0f1;
+    letter-spacing: 3px;
+}
