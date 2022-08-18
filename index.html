@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+         <h1>Student Mark Sheet</h1> 
+        <div class="left-box">
+            <h2>result</h2>
+            <div class="p-g-t">
+                <h3>Percentage - <span class="Percentage"></span></h3>
+                <h3>grade - <span class="grade"></span></h3>
+                <h3>total CGPA - <span class="total"></span></h3>
+            </div>
+        </div> 
+        <div class="content">
+            <div class="right-box">
+                <div class="mcq"> 
+                    <h4>MCQ</h4>
+                    <input type="number" id="ban-1st-mcq" placeholder="Bangla 1st paper(mcq-30)">
+                    <input type="number" id="ban-2nd-mcq" placeholder="Bangla 2nd Paper(mcq-30)">
+                    <input type="number" id="eng-1st" placeholder="English 1st Paper">
+                    <input type="number" id="eng-2nd" placeholder="English 2nd Paper">
+                    <input type="number" id="math-mcq" placeholder="Math(mcq-30)">
+                    <input type="number" id="religion-mcq" placeholder="Religion(mcq-30)">
+                    <input type="number" id="ict-mcq" placeholder="ICT(mcq-30)">
+                    <input type="number" id="phys-mcq" placeholder="Physics(mcq-30)">
+                    <input type="number" id="chem-mcq" placeholder="Chemistry(mcq-30)">
+                    <input type="number" id="bio-mcq" placeholder="Biology(mcq-30)">
+                    <input type="number" id="higher-math-mcq" placeholder="Higher Math(mcq-30)">
+                    <input type="number" id="B-G-S-mcq" placeholder="Bangladesh and Global Studies(mcq-30)">
+                </div>
+                <div class="cq">
+                    <h4>CQ</h4>
+                    <input type="number" id="ban-1st-cq" placeholder="Bangla 1st paper(cq-70)">
+                    <input type="number" id="ban-2nd-cq" placeholder="Bangla 2nd Paper(mcq-30)">
+                    <input type="number" id="eng-1st" placeholder="None">
+                    <input type="number" id="eng-2nd" placeholder="None">
+                    <input type="number" id="math-cq" placeholder="Math(cq-70)">
+                    <input type="number" id="religion-cq" placeholder="Religion(cq-70)">
+                    <input type="number" id="ict-cq" placeholder="ICT(cq-70)">
+                    <input type="number" id="phys-cq" placeholder="Physics(cq-70)">
+                    <input type="number" id="chem-cq" placeholder="Chemistry(cq-70)">
+                    <input type="number" id="bio-cq" placeholder="Biology(cq-70)">
+                    <input type="number" id="higher-math-cq" placeholder="Higher Math(cq-70)">
+                    <input type="number" id="B-G-S-cq" placeholder="Bangladesh and Global Studies(cq-70)">
+              
+                </div>
+                <div class="Point">
+                    <h4>Point</h4>
+                    <input type="number" id="ban-1st-point" placeholder="Point">
+                    <input type="number" id="ban-2nd-point" placeholder="Point">
+                    <input type="number" id="eng-1st-point" placeholder="Point">
+                    <input type="number" id="eng-2nd-point" placeholder="Point">
+                    <input type="number" id="math-point" placeholder="Point">
+                    <input type="number" id="religion-point" placeholder="Point">
+                    <input type="number" id="ict-point" placeholder="Point">
+                    <input type="number" id="phys-point" placeholder="Point">
+                    <input type="number" id="chem-point" placeholder="Point">
+                    <input type="number" id="bio-point" placeholder="Point">
+                    <input type="number" id="higher-math-point" placeholder="Point">
+                    <input type="number" id="B-G-S-point" placeholder="Point">
+                </div>
+                <div class="Grade">
+                    <h4>Grade</h4>
+                    <input type="text" id="ban-1st-grade" placeholder="Grade">
+                    <input type="text" id="ban-2nd-grade" placeholder="Grade">
+                    <input type="text" id="eng-1st-grade" placeholder="Grade">
+                    <input type="text" id="eng-2nd-grade" placeholder="Grade">
+                    <input type="text" id="math-grade" placeholder="Grade">
+                    <input type="text" id="religion-grade" placeholder="Grade">
+                    <input type="text" id="ict-grade" placeholder="Grade">
+                    <input type="text" id="phys-grade" placeholder="Grade">
+                    <input type="text" id="chem-grade" placeholder="Grade">
+                    <input type="text" id="bio-grade" placeholder="Grade">
+                    <input type="text" id="higher-math-grade" placeholder="Grade">
+                    <input type="text" id="B-G-S-grade" placeholder="Grade">
+              
+                </div>
+                <button type="button" onclick="show_result()">Show result</button> 
+                <button type="button">Exit</button> 
+            </div>
+        </div>
+        <div class="result">
+            <h3></h3>
+        </div>
+    </div>
+
+    <!------------- js file --------------->
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
