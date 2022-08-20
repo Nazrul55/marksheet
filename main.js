@@ -329,8 +329,6 @@ function show_result(){
     }
 
 
-
-
 }
 
 
