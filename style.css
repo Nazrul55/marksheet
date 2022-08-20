@@ -59,29 +59,16 @@ body{
      height: 660px; 
 }
 .content .right-box{
-    /* display: flex;
-    flex-direction: column;
-   
-     */
     display: grid;
     grid-template-columns: repeat(4,1fr);
     justify-items: center;
-    align-items: center;
-    
+    align-items: center; 
     position: absolute;
     top: 10;
     left: 280px;
     right: 0;
-    /* bottom: 0; */
     margin: 10px 0;
 }
-/* .right-box{
-    
-    /* min-width: 900px;
-    min-height: 80px;
-    justify-content: center;
-    align-items: center; */
-
 
 .right-box input{
     margin: 10px 0px;
@@ -97,7 +84,6 @@ body{
     color: #333;
 }
 .right-box button{
-    /* margin-bottom:0 0 10px 0; */
     height: 40px;
     width: 150px;
     margin-top: 10px;
