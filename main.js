@@ -328,6 +328,9 @@ function show_result(){
         cgpa.innerHTML = total_cgpa.toFixed(2)
     }
 
+
+
+
 }
 
 
