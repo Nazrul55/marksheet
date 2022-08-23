@@ -105,7 +105,7 @@ function show_result(){
     //point area
 
     function get_grade_point(total_number){
-        if(total_number >= 80 && total_number < 100) {
+        if(total_number >= 80 && total_number <= 100) {
             return 5.00
         }
         else if(total_number >= 70  && total_number < 79) {
@@ -210,7 +210,7 @@ function show_result(){
     //Grade area
 
     function get_grade(total_number){
-        if(total_number >= 80 && total_number < 100) {
+        if(total_number >= 80 && total_number <= 100) {
            return "A+"
         }
         else if(total_number >= 70  && total_number <= 79) {
